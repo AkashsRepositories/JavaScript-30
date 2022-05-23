@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(116, 52, 15);
+}
+
+.keys{
+    display: flex;
+    margin-top: 40vh;
+    text-align: center;
+    justify-items: center;
+}
+
+.key{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    position: relative;
+    padding: 2rem 2rem 2rem 2rem;
+    color: rgba(255, 255, 255, 0.712);
+    background-color: rgb(28, 31, 82);
+    border-radius: 1.6em;
+    transition: all 0.5s ease;
+    border: .8rem solid rgba(92, 92, 3, 0.842);
+}
+
+.playing{
+    transform: scale(1.1);
+    border: 1rem solid green;
+}
+
