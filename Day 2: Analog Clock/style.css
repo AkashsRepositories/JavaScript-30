@@ -48,10 +48,11 @@ html {
     transform-origin: 100%;
   }
 
-  .minute-hand{
-      height: 4px;
+.min-hand{
+      height: 3px;
   }
 
   .second-hand{
-      height: 2px;
+      height: 1px;
+      background-color: white;  
   }
